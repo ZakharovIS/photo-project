@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Unsplash Practice</string>
+    <string name="title_photos">Photos</string>
+    <string name="title_collections">Collections</string>
+    <string name="title_user">User</string>
+    <string name="onboarding_1">Create photos, publish, get feedback!</string>
+    <string name="onboarding_2">Share with friends? create collections!</string>
+    <string name="onboarding_3">Download your favorite photos, track statistics</string>
+    <string name="Button_authorization">Log in</string>
+
+    <string name="auth_login">Log in</string>
+    <string name="auth_canceled">Authentication cancelled</string>
+    <string name="corrupt_access_token">Corrupt access token</string>
+    <string name="get_user_info">Get user info</string>
+    <string name="get_user_error">Get user error</string>
+    <string name="logout">logout</string>
+
+    <string name="download_complete">Download complete!</string>
+    <string name="open_gallery">Open gallery</string>
+    <string name="author_and_photos">%1$d photo by @%2$s</string>
+    <string name="share">Share</string>
+    <string name="logout_question">Do you really want to quit? All local data will be deleted</string>
+    <string name="search">Search</string>
+    <string name="Undefined_location">Undefined</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="My_favorite_photos">Favorite photos</string>
+    <string name="error_loading_local_data">Network error. Using local data.</string>
+    <string name="made_with">Made with:</string>
+    <string name="model">Model:</string>
+    <string name="exposure">Exposure:</string>
+    <string name="aperture">Aperture:</string>
+    <string name="focal_length">Focal length:</string>
+    <string name="iso">ISO:</string>
+    <string name="about">About</string>
+    <string name="download">Download</string>
+    <string name="permission_not_granted">Permission not granted!</string>
+    <string name="error_reload_page">NETWORK ERROR. RELOAD THE PAGE.</string>
+    <string name="reload">Reload</string>
+</resources>

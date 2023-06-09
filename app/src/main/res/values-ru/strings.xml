@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unsplash Practice</string>
+    <string name="title_photos">Фотографии</string>
+    <string name="title_collections">Коллекции</string>
+    <string name="title_user">Пользователь</string>
+    <string name="onboarding_1">Создавайте снимки, публикуйте, собирайте аудиторию, получайте фидбек!</string>
+    <string name="onboarding_2">Делитесь с друзьями, создавайте коллекции</string>
+    <string name="onboarding_3">Загружайте любимые снимки, отслеживайте статистику</string>
+    <string name="Button_authorization">Войти через UNSPLASH</string>
+
+    <string name="auth_login">Войти</string>
+    <string name="auth_canceled">Аутентификация не выполнена</string>
+    <string name="corrupt_access_token">Проблема с токеном</string>
+    <string name="get_user_info">Get user info</string>
+    <string name="get_user_error">Get user error</string>
+    <string name="logout">Выйти из учетной записи</string>
+
+    <string name="download_complete">Загрузка завершена!</string>
+    <string name="open_gallery">Посмотреть в галерее</string>
+    <string name="author_and_photos">%1$d фото от @%2$s</string>
+    <string name="share">Поделиться</string>
+    <string name="logout_question">Вы действительно хотите выйти? Все локальные данные будут удалены</string>
+    <string name="search">Поиск</string>
+    <string name="Undefined_location">Не определено</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="My_favorite_photos">Любимые фото</string>
+    <string name="error_loading_local_data">Ошибка загрузки. Загружаю локальные данные.</string>
+    <string name="made_with">Камера:</string>
+    <string name="model">Модель:</string>
+    <string name="exposure">Экспозиция:</string>
+    <string name="aperture">Диафрагма:</string>
+    <string name="focal_length">Фокусное расстояние:</string>
+    <string name="iso">ISO:</string>
+    <string name="about">Об авторе</string>
+    <string name="download">Скачать</string>
+    <string name="permission_not_granted">Разрешение не получено!</string>
+    <string name="error_reload_page">ОШИБКА ЗАГРУЗКИ. ПЕРЕЗАГРУЗИТЕ СТРАНИЦУ.</string>
+    <string name="reload">Перезагрузить</string>
+</resources>

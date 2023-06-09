@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_photos">
+
+    <fragment
+        android:id="@+id/navigation_photos"
+        android:name="com.example.unsplashpractice.ui.photos.PhotosFragment"
+        android:label="@string/title_photos"
+        tools:layout="@layout/fragment_photos" >
+        <action
+            android:id="@+id/action_navigation_photos_to_navigation_photo_detail"
+            app:destination="@id/navigation_photo_detail"
+            app:popUpTo="@id/navigation_photos" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_collections"
+        android:name="com.example.unsplashpractice.ui.collections.CollectionsFragment"
+        android:label="@string/title_collections"
+        tools:layout="@layout/fragment_collections" >
+        <action
+            android:id="@+id/action_navigation_collections_to_navigation_collection_detail"
+            app:destination="@id/navigation_collection_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.example.unsplashpractice.ui.user.UserFragment"
+        android:label="@string/title_user"
+        tools:layout="@layout/fragment_user" >
+        <action
+            android:id="@+id/action_navigation_user_to_navigation_photo_detail"
+            app:destination="@id/navigation_photo_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_collection_detail"
+        android:name="com.example.unsplashpractice.ui.collections.CollectionDetailFragment"
+        android:label="Collection"
+        tools:layout="@layout/fragment_collection_detail" >
+        <action
+            android:id="@+id/action_navigation_collection_detail_to_navigation_photo_detail"
+            app:destination="@id/navigation_photo_detail"
+            app:popUpTo="@id/navigation_collection_detail" />
+        <argument
+            android:name="collection_id"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_photo_detail"
+        android:name="com.example.unsplashpractice.ui.photodetail.PhotoDetailFragment"
+        android:label="Photo"
+        tools:layout="@layout/fragment_photo_detail" >
+        <argument
+            android:name="photo_id"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
